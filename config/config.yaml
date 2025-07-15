@@ -1,0 +1,15 @@
+
+data_path : 'raw_data/food_order.csv'
+model_path: "artifacts/model.pkl"
+
+target_columns : 'delivery_time'
+
+features:
+  - order_id
+  - customer_id
+  - restaurant_name
+  - cuisine_type
+  - cost_of_the_order
+  - day_of_the_week
+  - rating
+  - food_preparation_time
