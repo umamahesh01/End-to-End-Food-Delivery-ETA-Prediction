@@ -23,4 +23,4 @@ def Remove_Outliers(df: pd.DataFrame, cols):
      
     df_cleaned = df[(df[cols] >= lower) & (df[cols] <= upper)]
 
-    return df_cleaned
+    return df_cleaned  
